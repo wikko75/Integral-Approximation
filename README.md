@@ -9,8 +9,8 @@ Using the **Monte Carlo** method. <br><br>
 ## Sample Result:<br>
 - **f(x) = x^1/3**
 - **a = 0**<br> **b = 8**<br> **M = 3** <br><br>Which gives: **[0, 8] x [0, 3]**<br><br>
-- **Blue points** - repeats of the algorithm for given **n**
-- **Red points** - average value of repeats for given **n** <br><br>
+- **Blue points** - repeats of the algorithm for a given **n**
+- **Red points** - an average value of repeats for a given **n** <br><br>
 ![Figure_2](https://user-images.githubusercontent.com/102422062/221363288-fa1acd0f-5729-44c2-b541-58e29be28c7f.png) <br>
 
 - The **actual** value of such integral of **f(x)** is **12**!
