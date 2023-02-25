@@ -70,7 +70,7 @@ def write_to_CSV(out_data, header):
         writer.writerow(header)
         writer.writerows(out_data)
 
-def display_data_on_diagram(average_arr):
+def display_data_on_diagram(average_arr, initial_data):
     
     print("Generating diagram...")
     
@@ -88,7 +88,7 @@ def display_data_on_diagram(average_arr):
     plt.scatter(x, average_arr, color = "Red", s = 10)
 
 
-    plt.title("Approximation of Integral[0,8] of x^1/3")
+    plt.title("Approximation of Integral [" + str(initial_data[0]) + "," + str(initial_data[1]) + "] of f(x)")
     plt.xlabel("n")
     plt.ylabel("Approx")
 
@@ -128,4 +128,4 @@ initial_data = []
 set_initial_data(initial_data)
 compute_data(initial_data, sum_of_approx, average_arr, out_data)
 write_to_CSV(out_data, header)
-display_data_on_diagram(average_arr)
+display_data_on_diagram(average_arr, initial_data)
