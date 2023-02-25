@@ -52,7 +52,7 @@ def gen_n_points(a, b, M, n, out_data, sum_of_approx):
         x = random.uniform(a, b)
         y = random.uniform(0, M)
 
-        #count points under curve     #zad.1 b) ---- if y >= f(x) and y <= g(x): c += 1  
+        #count points under curve 
         if y <= f(x):               
             c += 1       
     
