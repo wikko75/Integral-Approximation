@@ -1,7 +1,7 @@
 # Integral-Approximation
 Using the **Monte Carlo** method. <br><br>
 ## Algorithm steps: <br>
-1. Generate independently and uniformly **n** points from a rectangle **[a, b] x [0, M]** for a given ***M*** **>= sup{ f(x) : x ∈ [a,b] }** <br>
+1. Generate independently and uniformly **n** points from a rectangle **[a, b] x [0, M]**<br> for a given ***M*** **>= sup{ f(x) : x ∈ [a,b] }** <br>
 2. Count a number of generated points that lay under the curve of a function **f(x)** <br>
     A point **(x, y)** lies under the curve of **f(x)** if **y <= f(x)** ( = **C** ) <br>
 3. The approximation is **C/n * ( b−a ) * M**, where **( b−a ) * M** is an area of the rectangle <br>
